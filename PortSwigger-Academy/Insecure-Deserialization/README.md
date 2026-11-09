@@ -27,8 +27,6 @@ O:4:"User":2:{
 
 The object contained two important properties: `username` and `access_token`.
 
-**Screenshot 1:** Session cookie displayed in Chrome Developer Tools, with the token value redacted.
-
 ## 3. Modifying the Serialized Object
 
 I modified the serialized object by changing the username to `administrator` and converting the access token from a string into the integer `0`.
@@ -62,8 +60,6 @@ The application returned **HTTP 200 OK**, displaying:
 The response also contained a link to the administrative panel.
 
 This confirmed that the application accepted the manipulated serialized object and treated the request as authenticated to the administrator account.
-
-**Screenshot 2:** Successful HTTP response showing the administrator username and admin panel link.
 
 I then used the modified session to access the administrative deletion endpoint and completed the lab.
 
