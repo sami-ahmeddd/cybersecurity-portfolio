@@ -66,6 +66,10 @@ The dashboard contains three visualisations:
 2. **Security Events Over Time:** Visualises security-related activity across the monitored period.
 3. **DVWA Login Attempts Over Time:** Displays login submissions grouped into five-minute intervals.
 
+### Home SOC Dashboard
+
+![Home SOC Dashboard](images/Home%20SOC%20Dashboard%20Screenshot.jpg)
+
 ## Skills Developed
 
 - SIEM deployment and monitoring.
